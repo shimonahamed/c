@@ -45,7 +45,6 @@ int main(void){
         printf("%d ", arr[i]);  
     }
     int largest = arr[0];
-    printf("\nLargest Element: %d",largest);
 
     for (int i = 1; i < arr_size; i++)
     {
@@ -54,7 +53,7 @@ int main(void){
         }
     }
     
-    printf("\nSecond Largest Element: %d",largest);
+    printf("\n Greatest Element: %d",largest);
 
     return 0;
 }
