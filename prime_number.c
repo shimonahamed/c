@@ -41,14 +41,14 @@ int main(void) {
 
     // প্রতিটি সংখ্যার জন্য চেক করবো
     for (int i = start; i <= end; i++) {
-        int isPrime = 1; // ধরে নিচ্ছি প্রাইম
+        int isPrime = 1; 
 
         if (i <= 1) {
-            isPrime = 0; // 0 ও 1 প্রাইম নয়
+            isPrime = 0; 
         } else {
             for (int j = 2; j <= i / 2; j++) {
                 if (i % j == 0) {
-                    isPrime = 0; // ভাগ হয়ে গেছে, প্রাইম নয়
+                    isPrime = 0; 
                     break;
                 }
             }
